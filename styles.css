@@ -1,0 +1,110 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    float: right;
+    width: 45%;
+    margin-top: 0px;
+    font-size: 125%;
+    text-align: center;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.porsche {
+    background-color: #df80a8;
+    letter-spacing: 3px;
+}
+
+.mercedes {
+    background-color: #da5252;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.nissan {
+    background-color: #dfcf6f;
+    letter-spacing: 3px;
+}
+
+section {
+    display: block;
+    border: 3px solid black;
+    margin: 10px;
+    height: auto;
+    background-color: grey;
+}
+
+p {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+
+    .div1,
+    .div2,
+    .div3 {
+        float: left;
+    }
+
+    .div1 {
+        width: 33.33%;
+    }
+
+    .div2 {
+        width: 33.33%;
+    }
+
+    .div3 {
+        width: 33.33%;
+    }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .div1,
+    .div2,
+    .div3 {
+        float: left;
+    }
+
+    .div1 {
+        width: 50%;
+    }
+
+    .div2 {
+        width: 50%;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+    .div1 {
+        width: 100%;
+    }
+
+    .div2 {
+        width: 100%;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+}
